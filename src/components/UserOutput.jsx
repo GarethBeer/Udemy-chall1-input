@@ -4,8 +4,8 @@ const UserOutput = props => {
 	const { username } = props;
 	return (
 		<div className="App">
-			<p>Username:</p>
-			<p>{username}</p>
+			<p>Your new username is:</p>
+			<h5>{username}</h5>
 		</div>
 	);
 };

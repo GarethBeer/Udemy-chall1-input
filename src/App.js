@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<div className="App">
 			<UserInput />
-			<UserOutput />
+			<UserOutput username="U.name" />
 		</div>
 	);
 };
